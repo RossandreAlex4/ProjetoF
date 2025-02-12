@@ -1,0 +1,80 @@
+.navbar{
+    background-color: rgb(0, 0, 255);
+    text-align: center;
+    padding: 17px;
+    color: black;
+    font-size: 2em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.abas{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 50px;
+}
+
+.abas a{
+    color: white;
+    text-decoration: none;
+}
+
+.barraPesquisa{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+.txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+.logo a{
+  justify-content: space-around ;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.logo img{
+  height: 70px;
+  margin-top: 10px;
+}
+
+.pesquisa{
+  background-color: white;
+  width: 600px;
+  border-radius: 10px;
+  height: 2.5rem;
+  padding: 0 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.campoPesquisa{
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.campoPesquisa:focus{
+  outline: none;
+}
+
+.pesquisaImg{
+  height: 20px;
+}

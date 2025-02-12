@@ -1,0 +1,135 @@
+.perfil {
+    border-radius: 10px;
+    max-height: 362px;
+}
+
+.cover {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+
+.perfilInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, blue, rgba(0, 0, 0, 0) 92%);
+    padding: 30px;
+}
+
+.avatar {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.perfilInfo strong {
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.perfilInfo span {
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+.perfilInfo p {
+    padding: 4px;
+}
+
+.carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 12px;
+}
+
+.carrinho img {
+    height: 35px;
+    color: aliceblue;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+.carrinhoCards {
+    width: 20rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background: white;
+    height: fit-content;
+}
+
+.imgCard {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cardNome,
+.cardResumo {
+    margin: 0.5rem 5%;
+    color: black;
+}
+
+.cardPreco {
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    cursor: default;
+}
+
+.removerBtn{
+    font-size: 1.25rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.total {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.totalBtn {
+    font-size: 1.25rem;
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+}

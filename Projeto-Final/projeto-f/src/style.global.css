@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    background:url("./assets/img/fundo2.jpg");
+    /* background: linear-gradient(to bottom right,
+            #072438,
+            #01364bc5); */
+    color: aliceblue;
+    
+}

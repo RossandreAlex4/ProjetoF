@@ -1,0 +1,292 @@
+.recomedadosTxt{
+    text-align: center;
+    padding: 20px;
+}
+
+.promo{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.resultados{
+  text-align: center;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.destq{
+    text-align: center;
+    padding: 40px;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 255),rgba(0, 0, 0, 0) 92%);
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    gap: 38px;
+    padding: 50px;
+    
+}
+
+.carrinhoCards {
+    width: 25rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background: white;
+    height: fit-content;
+}
+
+.imgCard {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cardNome,
+.cardResumo {
+    margin: 0.5rem 5%;
+    color: black;
+}
+
+.cardPreco {
+    font-size: 2rem;
+    margin: 0.5rem;
+    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    width: 411px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.adicionarBtn {
+	position: relative;
+	width: 400px;
+	height: 53px;
+	border: 0;
+	background-color: blue;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+	overflow: hidden;
+  font-size: 15px;
+  margin: 0.5rem;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.carrinhoBtnCss{
+  height: 35px;
+}
+
+.sacolaBtnCss{
+  height: 20px;
+}
+
+.adicionarBtn:hover{
+  background-color: rgb(0, 0, 212);
+}
+
+.adicionarBtn:active {
+	transform: scale(0.97);
+}
+
+.adicionarBtn .carrinhoBtn {
+	position: absolute;
+	z-index: 2;
+	top: 65%;
+	left: -12%;
+	font-size: 2em;
+	transform: translate(-50%,-50%);
+}
+
+.adicionarBtn .sacolaBtn {
+	position: absolute;
+	z-index: 0;
+	top: -20%;
+	left: 52%;
+	font-size: 1.2em;
+	transform: translate(-50%,-50%);
+}
+
+.adicionarBtn span {
+	position: absolute;
+	z-index: 3;
+	left: 50%;
+	top: 50%;
+	font-size: 1.2em;
+	color: #fff;
+	transform: translate(-50%,-50%);
+}
+
+.adicionarBtn span.adicionarNoCarrinho {
+	opacity: 1;
+}
+
+.adicionarBtn span.adicionado {
+	opacity: 0;
+}
+
+.adicionarBtn.clicked .carrinhoBtn {
+	animation: cart 1.5s ease-in-out forwards;
+}
+.adicionarBtn.clicked .sacolaBtn {
+	animation: box 1.5s ease-in-out forwards;
+}
+.adicionarBtn.clicked span.adicionarNoCarrinho {
+	animation: txt1 1.5s ease-in-out forwards;
+}
+.adicionarBtn.clicked span.adicionado {
+	animation: txt2 1.5s ease-in-out forwards;
+}
+
+@keyframes cart {
+	0% {
+		left: -10%;
+	}
+	40%, 60% {
+		left: 50%;
+	}
+	100% {
+		left: 120%;
+	}
+}
+@keyframes box {
+	0%, 40% {
+		top: -20%;
+	}
+	60% {
+		top: 40%;
+		left: 51%;
+	}
+	100% {
+		top: 40%;
+		left: 122%;
+	}
+}
+@keyframes txt1 {
+	0% {
+		opacity: 1;
+	}
+	20%, 100% {
+		opacity: 0;
+	}
+}
+@keyframes txt2 {
+	0%, 80% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.carouselContainer {
+    margin-top: 2rem;
+    width: 91.6667%;
+    padding: 0.5rem;
+    margin-left: 65px;
+    
+    
+  }
+  
+  .carouselInner {
+    position: relative;
+  }
+  
+  .carouselCards {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .card {
+    flex: none;
+    width: 33.3333%;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    
+  }
+  
+  .cardTitle {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-family: "New Amsterdam", sans-serif;   
+  }
+  
+  .cardDescription {
+    color: black;
+    text-align: center;
+  }
+  
+  .carouselControls {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20rem;
+    margin: 10px;
+  }
+  
+  .controlButton {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #d1d5db;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controlButtonPrev {
+    height: 47px;
+    width: 47px;
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
+    border: white;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .controlButtonNext {
+    height: 47px;
+    width: 47px;
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
+    border: white;
+    margin-right: 0;
+    cursor: pointer;
+  }
+
+  
