@@ -46,52 +46,52 @@ export default function Header() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const cards = [
     {
-      image: 'src/assets/img/GTA.jpg',
+      image: '/assets/img/GTA.jpg',
       title: 'Grand Theft Auto V',
       description: 'O game se passa no estado ficcional de San Andreas, baseado na Califórnia do Sul, nos EUA. Traz a história de campanha simultânea de três criminosos: o ladrão de bancos aposentado Michael De Santa, o gângster de rua Franklin Clinton e o traficante de armas psicopata Trevor Philips.',
     },
     {
-      image: 'src/assets/img/injustice.jpg',
+      image: '/assets/img/injustice.jpg',
       title: 'Injustice 2',
       description: 'Injustice 2 continua a história iniciada em Injustice: Gods Among Us, enquanto Batman e seus aliados se esforçam para reconstruir a sociedade e têm dificuldades para combater os que querem restaurar o Regime do Superman.',
     },
     {
-      image: 'src/assets/img/fifa.jpg',
+      image: '/assets/img/fifa.jpg',
       title: 'FC 25',
       description: 'O EA SPORTS FC™ 25 traz para você o Jogo de Todo Mundo, a experiência mais realista de futebol de todos os tempos com o HyperMotionV, Estilos de Jogo otimizados pela Opta e uma Frostbite™',
     },
     {
-      image: 'src/assets/img/mine.jpg',
+      image: '/assets/img/mine.jpg',
       title: 'Minecraft',
       description: ' é um jogo em que você constrói coisas com blocos, em um mundo virtual aberto e livre para explorar. É o que os gamers chamam de sandbox, porque funciona mesmo como uma caixa de areia, em que o único limite para o jogador é a própria imaginação e a prática.',
     },
     {
-      image: 'src/assets/img/sonic.jpg',
+      image: '/assets/img/sonic.jpg',
       title: 'Sonic Generations',
       description: 'Sonic Generations traz o Sonic Clássico que contém o mesmo visual dos primeiros jogos do console doméstico Mega Drive, e o Sonic Moderno que tem o seu Spin-Dash e o Spin-Attack que são vistos lá em Sonic Adventure em Sonic 4 "em ambos episódios".',
     },
     {
-      image: 'src/assets/img/macaco.jpeg',
+      image: '/assets/img/macaco.jpeg',
       title: 'Black Myth: Wukong',
       description: 'Você assume o papel do Predestinado e tem a responsabilidade de encarar os desafios e as maravilhas do mundo para desvendar a verdade obscura por trás de uma lenda gloriosa do passado.',
     },
     {
-      image: 'src/assets/img/cyberpunk.jpg',
+      image: '/assets/img/cyberpunk.jpg',
       title: 'Cyberpunk 2077',
       description: 'A trama segue a luta de V enquanto tenta lidar com um misterioso implante cibernético que ameaça substituir seu corpo com a personalidade e as memórias de uma celebridade falecida perceptível apenas por V.',
     },
     {
-      image: 'src/assets/img/GOW.jpg',
+      image: '/assets/img/GOW.jpg',
       title: 'God Of War: Ragnarök',
       description: 'Em God of War: Ragnarok, acompanhe a jornada de Kratos e Atreus pelos Nove Reinos em busca de respostas, enquanto as forças asgardianas preparam-se para a guerra. Atreus está à procura de conhecimento para entender a profecia de Loki e o papel dele no Ragnarok.',
     },
     {
-      image: 'src/assets/img/asscreed.jpg',
+      image: '/assets/img/asscreed.jpg',
       title: 'Assassins Creed: Valhalla',
       description: 'O movimento do Grande Exército Pagão na Inglaterra durante as expansoes Vikings. O mapa mostra alguns dos reinos que o jogador pode explorar em Valhalla. Em Assassins Creed Valhalla, a história acontece perto do final do século IX, durante as Invasões Vikings da Grã Bretanha.',
     },
     {
-      image: 'src/assets/img/mk.jpg',
+      image: '/assets/img/MK.jpg',
       title: 'Mortal Kombat 1',
       description: 'Mortal Kombat 1 dá continuidade aos eventos de Aftermath, a expansão de Mortal Kombat 11. Depois de absorver os poderes de Raiden para derrotar Kronika, que controlava a Ampulheta responsável por moldar o tempo.',
     },
@@ -182,8 +182,8 @@ export default function Header() {
                >
                 <span className={styles.adicionarNoCarrinho}>Adicionar no carrinho</span>
                 <span className={styles.adicionado}>Adicionado</span>
-                <i className={styles.carrinhoBtn}><img className={styles.carrinhoBtnCss} src="src\assets\img\carrinho2.png" alt="" /></i>
-                <i className={styles.sacolaBtn}><img className={styles.sacolaBtnCss} src="src\assets\img\manete.png" alt="" /></i>
+                <i className={styles.carrinhoBtn}><img className={styles.carrinhoBtnCss} src="\assets\img\carrinho2.png" alt="" /></i>
+                <i className={styles.sacolaBtn}><img className={styles.sacolaBtnCss} src="\assets\img\manete.png" alt="" /></i>
               </button>
             </div>
           </div>

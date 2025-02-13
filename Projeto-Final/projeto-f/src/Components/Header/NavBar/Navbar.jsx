@@ -30,13 +30,13 @@ export default function Navbar() {
     // Atalhos para pagina principal/carrinho
     <header className={styles.navbar}>
       <div className={styles.logo}>
-        <Link to="/"><img src="src/assets/img/logo.png" alt="" /></Link>
-        <Link to="./Perfil"><img src="src/assets/img/perfil.png" alt="" /></Link>
+        <Link to="/"><img src="assets/img/logo.png" alt="" /></Link>
+        <Link to="./Perfil"><img src="assets/img/perfil.png" alt="" /></Link>
       </div>
-
+        
       {/* Barra de pesquisa */}
       <div className={styles.pesquisa}>
-        <img className={styles.pesquisaImg} src="src\assets\img\lupa.png" alt="" />
+        <img className={styles.pesquisaImg} src="assets\img\lupa.png" alt="" />
         <input
           type="text"
           value={pesquisa}

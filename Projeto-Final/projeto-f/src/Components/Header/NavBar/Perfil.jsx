@@ -14,13 +14,13 @@ export default function Perfil() {
   return (
     <div className={styles.perfil}>
       <div className={styles.perfilInfo}>
-        <img className={styles.avatar} src="src/assets/img/gamer.png" alt="Avatar" />
+        <img className={styles.avatar} src="assets/img/gamer.png" alt="Avatar" />
         <strong>Seu nome</strong>
         <span>Nível da conta</span>
         <p>E-mail: profissional@gmail.com</p>
       </div>
       <div className={styles.carrinho}>
-        <img src="src/assets/img/carrinho.png" alt="Carrinho" />
+        <img src="assets/img/carrinho.png" alt="Carrinho" />
         <h1>Meu carrinho</h1>
       </div>
       {/* cards dos jogos */}

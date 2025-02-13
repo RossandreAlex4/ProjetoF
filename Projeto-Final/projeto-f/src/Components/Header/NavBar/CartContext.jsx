@@ -29,7 +29,7 @@ export function CartProvider({ children }) {
     { id: 21, nome: 'Cyberpunk 2077', preco: 'R$ 159,99', img: '/assets/img/cyberpunk.jpg'},
     { id: 22, nome: 'Farcry 6', preco: 'R$ 189,99', img: '/assets/img/farcry.jpg'},
     { id: 23, nome: 'Need For Speed: Unbound', preco: 'R$ 109,99', img: '/assets/img/NFS.jpeg'},
-    { id: 24, nome: 'NBA 2K25', preco: 'R$ 179,99', img: '/assets/img/NBA.pNg'},
+    { id: 24, nome: 'NBA 2K25', preco: 'R$ 179,99', img: '/assets/img/NBA.png'},
     { id: 25, nome: 'Resident Evil 7: Biohazard', preco: 'R$ 119,99', img: '/assets/img/ResidentEvil.jpg'},
     { id: 26, nome: 'Assassins Creed: Valhalla', preco: 'R$ 99,99', img: '/assets/img/asscreed.jpg'},
     { id: 27, nome: 'Hitman 3', preco: 'R$ 89,99', img: '/assets/img/hitman.jpeg'},
