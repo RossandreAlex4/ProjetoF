@@ -17,7 +17,7 @@ export default function Perfil() {
         <img className={styles.avatar} src="assets/img/gamer.png" alt="Avatar" />
         <strong>Seu nome</strong>
         <span>Nível da conta</span>
-        <p>E-mail: profissional@gmail.com</p>
+        <p>E-mail: exemplo@gmail.com</p>
       </div>
       <div className={styles.carrinho}>
         <img src="assets/img/carrinho.png" alt="Carrinho" />
