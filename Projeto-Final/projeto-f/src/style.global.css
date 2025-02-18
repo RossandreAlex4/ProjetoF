@@ -2,25 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 
 body {
-    font-family: "Oswald", sans-serif;
-    background:url("./assets/img/fundo22.jpg");
-    
-    /* background: linear-gradient(to bottom right,
-            #072438,
-            #01364bc5); */
-    /* background-color: rgba(23,33,40,255); */
-    margin-top: 0px;
-    color: aliceblue;
-    top: 0px !important;
-    background-repeat: no-repeat;
-    background-size: cover;
-  background-position: center;
-
-    
+  font-family: "Iceberg", serif;
+  background:url("./assets/img/fundo222.jpg");
+  color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;    
 }
 

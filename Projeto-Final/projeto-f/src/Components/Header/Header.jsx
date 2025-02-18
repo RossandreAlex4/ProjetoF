@@ -4,6 +4,7 @@ import Alert from '@mui/material/Alert';
 import Snackbar from '@mui/material/Snackbar';
 import styles from '../Header/header.module.css'
 
+
 // estilo da barra de pesquisa
 const contentStyle = {
   height: '470px',
@@ -11,7 +12,7 @@ const contentStyle = {
   lineHeight: '160px',
   textAlign: 'center',
   background: '#364d79',
-};
+}
 
 export default function Header() {
   // função para exibir os cards
@@ -35,7 +36,6 @@ export default function Header() {
     setClickedCards((prev) => new Set(prev).add(cartao.id));
   };
 
-  
 
   // função para fechar o alert
   const handleClose = () => {
@@ -48,7 +48,7 @@ export default function Header() {
     {
       image: '/assets/img/GTA.jpg',
       title: 'Grand Theft Auto V',
-      description: 'O game se passa no estado ficcional de San Andreas, baseado na Califórnia do Sul, nos EUA. Traz a história de campanha simultânea de três criminosos: o ladrão de bancos aposentado Michael De Santa, o gângster de rua Franklin Clinton e o traficante de armas psicopata Trevor Philips.',
+      description: 'O game se passa no estado ficcional de San Andreas, nos EUA. Traz a história de campanha simultânea de três criminosos: o ladrão de bancos aposentado Michael De Santa, o gângster de rua Franklin Clinton e o traficante de armas psicopata Trevor Philips.',
     },
     {
       image: '/assets/img/injustice.jpg',
@@ -83,12 +83,12 @@ export default function Header() {
     {
       image: '/assets/img/GOW.jpg',
       title: 'God Of War: Ragnarök',
-      description: 'Em God of War: Ragnarok, acompanhe a jornada de Kratos e Atreus pelos Nove Reinos em busca de respostas, enquanto as forças asgardianas preparam-se para a guerra. Atreus está à procura de conhecimento para entender a profecia de Loki e o papel dele no Ragnarok.',
+      description: 'Acompanhe a jornada de Kratos e Atreus pelos Nove Reinos em busca de respostas, enquanto as forças asgardianas preparam-se para a guerra. Atreus está à procura de conhecimento para entender a profecia de Loki e o papel dele no Ragnarok.',
     },
     {
       image: '/assets/img/asscreed.jpg',
-      title: 'Assassins Creed: Valhalla',
-      description: 'O movimento do Grande Exército Pagão na Inglaterra durante as expansoes Vikings. O mapa mostra alguns dos reinos que o jogador pode explorar em Valhalla. Em Assassins Creed Valhalla, a história acontece perto do final do século IX, durante as Invasões Vikings da Grã Bretanha.',
+      title: 'Assassins Creed',
+      description: 'O movimento do Grande Exército Pagão na Inglaterra durante as expansoes Vikings. O mapa mostra alguns dos reinos que o jogador pode explorar em Valhalla. A história acontece perto do final do século IX, durante as Invasões Vikings da Grã Bretanha.',
     },
     {
       image: '/assets/img/MK.jpg',
@@ -106,7 +106,7 @@ export default function Header() {
     setCurrentIndex((prevIndex) => (prevIndex - 1 + cards.length) % cards.length);
   };
 
-  // função que verifica se o total de cards é menor que 22, se for, aparecerão apenas os cards
+  // função que verifica se o total de cards é menor que 28, se for, aparecerão apenas os cards
   const isSearching = cartoesFiltrados.length < 28;
 
   const jogosFiltrados = isSearching ? true : false;
@@ -177,7 +177,7 @@ export default function Header() {
             <div className={styles.btns}>
               <a className={styles.cardPreco}>{cartao.preco}</a>
               <button 
-                onClick={() => adicionarNoCarrinho(cartao)}
+                onClick={() => {adicionarNoCarrinho(cartao)}}                
                 className={`${styles.adicionarBtn} ${clickedCards.has(cartao.id) ? styles.clicked : ''}`}
                >
                 <span className={styles.adicionarNoCarrinho}>Adicionar no carrinho</span>

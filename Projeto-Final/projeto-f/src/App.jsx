@@ -3,8 +3,8 @@ import { CartProvider } from "./Components/Header/NavBar/CartContext";
 import Header from './Components/Header/Header'
 import Navbar from './Components/Header/NavBar/Navbar'
 import Perfil from "./Components/Header/NavBar/Perfil";
+import Footer from "./Components/FooTer/Footer";
 import MultiCardCarousel from "./Components/Header/NavBar/MultiCardCarousel";
-import ImageComponent from './Components/Header/NavBar/ImageComponent';
 import './style.global.css'
 
 
@@ -15,8 +15,6 @@ function App() {
     <>
     
     <div>
-    
-    <ImageComponent/>
     <CartProvider>
     <Navbar/>
     <Routes>
@@ -24,6 +22,7 @@ function App() {
 
       <Route path="Perfil" element={<Perfil />} />
     </Routes>
+    <Footer/>
     </CartProvider>
     
     </div>
