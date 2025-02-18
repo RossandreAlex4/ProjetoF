@@ -27,15 +27,17 @@
 .perfilInfo strong {
     margin-top: 1rem;
     line-height: 1.6;
+    font-size: 20px;
 }
 
 .perfilInfo span {
-    font-size: 0.875rem;
+    font-size: 21px;
     line-height: 1.6;
 }
 
 .perfilInfo p {
     padding: 4px;
+    font-size: 21px;
 }
 
 .carrinho {
@@ -44,10 +46,11 @@
     justify-content: center;
     margin-top: 1rem;
     gap: 12px;
+    font-size: 22px;
 }
 
 .carrinho img {
-    height: 35px;
+    height: 47px;
     color: aliceblue;
 }
 

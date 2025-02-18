@@ -22,9 +22,7 @@ function App() {
 
       <Route path="Perfil" element={<Perfil />} />
     </Routes>
-    <Footer/>
     </CartProvider>
-    
     </div>
     
     </>

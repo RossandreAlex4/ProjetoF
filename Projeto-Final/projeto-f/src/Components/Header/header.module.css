@@ -9,6 +9,7 @@
   text-align: center;
   padding: 20px;
   margin-top: 0;
+  font-size: 25px;
 }
 
 .destq{
@@ -304,4 +305,138 @@
     cursor: pointer;
   }
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+      
+}
+footer{
+    background-color: blue;
+    padding: 50px 0;
+    font-family: "Iceberg", serif;
+}
+.containerfooter{
+    
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+    bottom: 1000px;
+}
+.rowfooter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footercol{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footercol h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footercol ul{
+    list-style: none;
+}
+.footercol ul li{
+    margin: 10px 0;
+}
+.footercol ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footercol ul li a:hover{
+    color: rgb(0,0,100);
+    padding-left: 10px;
+    font-size: 29px;
+}
+.footercol .mediassocias{
+    margin-top: 15px;
+}
+.footercol .mediassocias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+    background-color: #415aca;
+}
+.footercol .mediassocias a i{
+    font-size: 20px;
+}
+
+.footercol .mediassocias a:hover{
+    color: #415aca;
+    background-color: white;
+}
+.footercol .formsub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #415aca;
+}
+.footercol .formsub input::placeholder{
+    color: white;
+}
+.footercol .formsub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #415aca;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white; 
+    transition: 0.5s;       
+}
+.formsub button:hover{
+  background-color: rgb(0,0,114);
+  color: white;
+  transition: 0.5s;
+  transform: scale(1.1);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.mediassocias img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    transition: transform 0.3s;
+    
+}
+
+.mediassocias img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.email{
+   flex-wrap: wrap;
+   display: flex;
+   max-width: 5px;
+
+}
   
